@@ -6,6 +6,6 @@ WordPress ソフトウェアと同じく [GPL バージョン 2](http://www.gnu.
 ただし、著作権はキャラクター作成者のカネウチカズコさんが保有します。
 
 ---
-It is a plug-in that embed wpuu drawn by CSS in the short code .
+It is a plug-in that embed wapuu drawn by CSS in the short code .
 
 ["わぷー(Wapuu)"](https://ja.wordpress.org/about-wp-ja/wapuu/) is ja.wordpress.org official character. "わぷー(Wapuu)" was designed by Kazuko Kaneuchi under [GPL v2 license](http://www.gnu.org/licenses/gpl-2.0.html) or any later version.

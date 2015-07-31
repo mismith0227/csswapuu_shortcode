@@ -2,7 +2,7 @@
 /**
  * Plugin Name: CSS Wapuu Shortcode
  * Plugin URI:  
- * Description: It is a plug-in that embed wpuu drawn by CSS in the short code .
+ * Description: It is a plug-in that embed wapuu drawn by CSS in the short code .
  * Version:	 0.1
  * Author:	  Misumi Takuma
  * Author URI:  
