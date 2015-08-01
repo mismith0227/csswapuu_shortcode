@@ -10,12 +10,17 @@
  */
 
 function css_wapuu_shortcord_stylesheet() {
-		echo '<link rel="stylesheet" href="'. get_bloginfo('wpurl') . '/wp-content/plugins/css-wapuu-shortcord/css/style.css" type="text/css" media="screen" />';
+	wp_enqueue_style( 'style', plugin_dir_url( __FILE__ ) . '/css/style.css', array(), '0.1', 'all');
 }
-add_action('wp_head', 'css_wapuu_shortcord_stylesheet');
+add_action('wp_enqueue_scripts', 'css_wapuu_shortcord_stylesheet');
 
 function css_wapuu_shortcord($atts, $content=null) {
-	return '<div class="css-wapuu">
+
+extract( shortcode_atts( array(
+	'scale'	=> 1,
+), $atts ));
+
+return '<div class="css-wapuu" style="-webkit-transform: scale(' . $scale . ');-ms-transform: scale(' . $scale . ');transform: scale(' . $scale . ');">
 <div class="line-tail1"></div>
 <div class="line-tail2"></div>
 <div class="tail1"></div>

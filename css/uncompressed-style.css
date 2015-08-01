@@ -4,9 +4,9 @@
 	position: relative;
  	width: 400px;
  	height: 400px;
-  	-webkit-transform: scale(0.75);
-  	-ms-transform: scale(0.75);
-  	transform: scale(0.75);
+  -moz-transform-origin: 0 0;  
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 /*---------------------------------------
