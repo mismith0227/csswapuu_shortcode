@@ -1,26 +1,35 @@
 <?php
 /**
  * Plugin Name: CSS Wapuu Shortcode
- * Plugin URI:  
+ * Plugin URI:
  * Description: It is a plug-in that embed wapuu drawn by CSS in the short code .
  * Version:	 0.1
  * Author:	  Misumi Takuma
- * Author URI:  
+ * Author URI:
  * License:	 GPLv2
  */
 
 function css_wapuu_shortcord_stylesheet() {
-	wp_enqueue_style( 'style', plugin_dir_url( __FILE__ ) . '/css/style.css', array(), '0.1', 'all');
+	wp_enqueue_style( 'style', plugin_dir_url( __FILE__ ) . '/css/style.css', array(), '0.1', 'all' );
 }
-add_action('wp_enqueue_scripts', 'css_wapuu_shortcord_stylesheet');
+add_action( 'wp_enqueue_scripts', 'css_wapuu_shortcord_stylesheet' );
 
-function css_wapuu_shortcord($atts, $content=null) {
+function css_wapuu_shortcord( $atts, $content=null ) {
 
-extract( shortcode_atts( array(
+$atts = shortcode_atts( array(
 	'scale'	=> 1,
-), $atts ));
+), $atts );
 
-return '<div class="css-wapuu" style="-webkit-transform: scale(' . $scale . ');-ms-transform: scale(' . $scale . ');transform: scale(' . $scale . ');">
+$scale = filter_var( $atts['scale'], FILTER_VALIDATE_FLOAT );
+
+if ( $scale !== FALSE ) {
+	$style = esc_attr( sprintf( '-webkit-transform: scale(%1$s);-ms-transform: scale(%1$s);transform: scale(%1$s);', $scale ) );
+} else {
+	$style = "";
+}
+
+
+return '<div class="css-wapuu" style="' . $style . '">
 <div class="line-tail1"></div>
 <div class="line-tail2"></div>
 <div class="tail1"></div>
@@ -89,5 +98,4 @@ return '<div class="css-wapuu" style="-webkit-transform: scale(' . $scale . ');-
 
 </div>';
 }
-add_shortcode('css_wapuu', 'css_wapuu_shortcord');
-?>
+add_shortcode( 'css_wapuu', 'css_wapuu_shortcord' );
