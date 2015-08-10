@@ -15,7 +15,7 @@
 
 ---------------------------------------*/
 
-.line1 {
+.css-wapuu .line1 {
   background-color: #000;
   width: 234px;
   height: 293px;
@@ -25,7 +25,7 @@
   border-radius: 120px 108px 129px 118px / 119px 145px 109px 145px;
 }
 
-.line1::after {
+.css-wapuu .line1::after {
 	content: "";
 	background-color: #000;
 	width: 238px;
@@ -41,7 +41,7 @@
   	        transform: rotate(-114deg);
 }
 
-.line1::before {
+.css-wapuu .line1::before {
   content: "";
   background-color: #000;
   width: 128px;
@@ -57,7 +57,7 @@
           transform: rotate(-89deg);
 }
 
-.line2 {
+.css-wapuu .line2 {
 	background-color: #000;
   width: 64px;
   height: 24px;
@@ -67,7 +67,7 @@
   border-radius: 112px / 89px;
 }
 
-.line2::after {
+.css-wapuu .line2::after {
 	content: "";
 	background-color: #000;
   width: 44px;
@@ -88,7 +88,7 @@
   Ball
 
 ---------------------------------------*/
-.ball {
+.css-wapuu .ball {
 	width: 214px;
 	height: 214px;
 	position: absolute;
@@ -97,7 +97,7 @@
 	border-radius: 50%;
 }
 
-.ball2 {
+.css-wapuu .ball2 {
   width: 51px;
   height: 12px;
   position: absolute;
@@ -112,7 +112,7 @@
   z-index: 1;
 }
 
-.boll-light {
+.css-wapuu .boll-light {
   width: 154px;
   height: 164px;
   position: absolute;
@@ -121,7 +121,7 @@
   border-radius: 170px 190px 198px 150px / 170px 190px 184px 204px;
 }
 
-.w-circle {
+.css-wapuu .w-circle {
 	background: #fff;
   width: 125px;
   height: 140px;
@@ -131,7 +131,7 @@
   border-radius: 160px 140px 159px 140px / 180px 150px 178px 148px;
 }
 
-.w-circle-inner {
+.css-wapuu .w-circle-inner {
   width: 113px;
   height: 127px;
   position: absolute;
@@ -145,7 +145,7 @@
   WordPress logo
 
 ---------------------------------------*/
-.w-1 {
+.css-wapuu .w-1 {
 	background: #FFF;
 	width: 101px;
   height: 18px;
@@ -160,7 +160,7 @@
           transform: rotate(73deg);
 }
 
-.w-2 {
+.css-wapuu .w-2 {
 	width: 117px;
   height: 58px;
   position: absolute;
@@ -174,7 +174,7 @@
           transform: rotate(73deg);
 }
 
-.w-3 {
+.css-wapuu .w-3 {
 	background: #fff;
 	width: 20px;
 	height: 5px;
@@ -189,7 +189,7 @@
           transform: rotate(-18deg);
 }
 
-.w-4 {
+.css-wapuu .w-4 {
 	background: #FFF;
 	width: 70px;
   height: 18px;
@@ -204,7 +204,7 @@
           transform: rotate(99deg);
 }
 
-.w-5 {
+.css-wapuu .w-5 {
 	width: 68px;
   height: 18px;
   position: absolute;
@@ -218,7 +218,7 @@
           transform: rotate(98deg);
 }
 
-.w-6 {
+.css-wapuu .w-6 {
 	background: #FFF;
 	width: 119px;
   height: 22px;
@@ -233,7 +233,7 @@
           transform: rotate(71deg);
 }
 
-.w-7 {
+.css-wapuu .w-7 {
 	width: 119px;
   height: 22px;
   position: absolute;
@@ -247,7 +247,7 @@
           transform: rotate(71deg);
 }
 
-.w-8 {
+.css-wapuu .w-8 {
 	background: #fff;
 	width: 35px;
 	height: 5px;
@@ -262,7 +262,7 @@
           transform: rotate(-5deg);
 }
 
-.w-9 {
+.css-wapuu .w-9 {
 	width: 20px;
 	height: 18px;
 	position: absolute;
@@ -275,7 +275,7 @@
           transform: rotate(-5deg);
 }
 
-.w-10 {
+.css-wapuu .w-10 {
 	background: #FFF;
 	width: 30px;
 	height: 20px;
@@ -290,7 +290,7 @@
           transform: rotate(59deg);
 }
 
-.w-11 {
+.css-wapuu .w-11 {
 	background: #FFF;
 	width: 55px;
 	height: 20px;
@@ -305,7 +305,7 @@
           transform: rotate(93deg);
 }
 
-.w-12 {
+.css-wapuu .w-12 {
 	width: 33px;
 	height: 20px;
 	position: absolute;
@@ -319,7 +319,7 @@
           transform: rotate(83deg);
 }
 
-.w-13 {
+.css-wapuu .w-13 {
 	background: #FFF;
 	width: 70px;
   height: 9px;
@@ -338,7 +338,7 @@
   Body
 
 ---------------------------------------*/
-.body {
+.css-wapuu .body {
   width: 63px;
   height: 50px;
   position: absolute;
@@ -352,7 +352,7 @@
           transform: rotate(41deg);
 }
 
-.body::before {
+.css-wapuu .body::before {
   content: "";
   width: 113px;
   height: 31px;
@@ -367,7 +367,7 @@
           transform: rotate(40deg);
 }
 
-.body::after {
+.css-wapuu .body::after {
   content: "";
   width: 115px;
   height: 30px;
@@ -383,7 +383,7 @@
 }
 
 /* Belly (position litte fix) */
-.belly {
+.css-wapuu .belly {
   background-color: #000;
   width: 18px;
   height: 6px;
@@ -399,7 +399,7 @@
   z-index: 2;
 }
 
-.belly::after {
+.css-wapuu .belly::after {
   content: "";
   background-color: #000;
   width: 18px;
@@ -415,7 +415,7 @@
           transform: rotate(-185deg);
 }
 
-.belly::before {
+.css-wapuu .belly::before {
   content: "";
   background-color: #000;
   width: 48px;
@@ -436,7 +436,7 @@
   Face
 
 ---------------------------------------*/
-.line-face1 {
+.css-wapuu .line-face1 {
 	background-color: #000;
   width: 74px;
   height: 37px;
@@ -451,7 +451,7 @@
           transform: rotate(-43deg);
 }
 
-.line-face2 {
+.css-wapuu .line-face2 {
 	background-color: #000;
   width: 74px;
   height: 37px;
@@ -466,7 +466,7 @@
           transform: rotate(-7deg);
 }
 
-.face {
+.css-wapuu .face {
   width: 77px;
   height: 35px;
   position: absolute;
@@ -495,7 +495,7 @@
           transform: rotate(37deg);
 }
 
-.face::before {
+.css-wapuu .face::before {
   content: "";
   width: 120px;
   height: 55px;
@@ -511,7 +511,7 @@
 }
 
 /* Mouth (little position fix) */
-.mouth {
+.css-wapuu .mouth {
   background-color: #000;
   width: 9px;
   height: 6px;
@@ -531,7 +531,7 @@
   Hands
 
 ---------------------------------------*/
-.line-right-hand {
+.css-wapuu .line-right-hand {
 	background: #000;
 	width: 35px;
 	height: 36px;
@@ -541,7 +541,7 @@
   border-radius: 20px;
 }
 
-.line-right-hand::after {
+.css-wapuu .line-right-hand::after {
 	content: "";
 	background: #000;
 	width: 35px;
@@ -552,7 +552,7 @@
   border-radius: 20px;
 }
 
-.line-left-hand {
+.css-wapuu .line-left-hand {
 	background-color: #000;
   width: 114px;
 	height: 43px;
@@ -567,7 +567,7 @@
           transform: rotate(-20deg);
 }
 
-.line-left-hand::after {
+.css-wapuu .line-left-hand::after {
 	content: "";
 	background-color: #000;
   width: 87px;
@@ -583,7 +583,7 @@
           transform: rotate(62deg);
 }
 
-.line-left-hand::before {
+.css-wapuu .line-left-hand::before {
 	content: "";
 	background-color: #000;
   width: 84px;
@@ -599,7 +599,7 @@
           transform: rotate(-149deg);
 }
 
-.left-hand {
+.css-wapuu .left-hand {
   width: 68px;
   height: 29px;
   position: absolute;
@@ -613,7 +613,7 @@
           transform: rotate(-18deg);
 }
 
-.left-hand::after {
+.css-wapuu .left-hand::after {
   content: "";
   background-color: #000;
   width: 54px;
@@ -629,7 +629,7 @@
           transform: rotate(21deg);
 }
 
-.left-hand::before {
+.css-wapuu .left-hand::before {
   content: "";
   width: 79px;
   height: 32px;
@@ -644,7 +644,7 @@
           transform: rotate(21deg);
 }
 
-.right-hand {
+.css-wapuu .right-hand {
   width: 25px;
   height: 17px;
   position: absolute;
@@ -658,7 +658,7 @@
           transform: rotate(-48deg);
 }
 
-.arm {
+.css-wapuu .arm {
   background-color: #000;
   width: 35px;
   height: 5px;
@@ -674,7 +674,7 @@
 }
 
 /* 腕の線、微調整 */
-.arm::before {
+.css-wapuu .arm::before {
   content: "";
   background-color: #000;
   width: 35px;
@@ -695,7 +695,7 @@
   Ear
 
 ---------------------------------------*/
-.line-left-ear {
+.css-wapuu .line-left-ear {
 	background-color: #000;
   width: 110px;
   height: 22px;
@@ -705,7 +705,7 @@
   border-radius: 132px 100px 70px 110px / 89px 120px 70px 110px;
 }
 
-.line-left-ear::after {
+.css-wapuu .line-left-ear::after {
   content: "";
   background-color: #000;
   width: 83px;
@@ -721,7 +721,7 @@
           transform: rotate(29deg);
 }
 
-.line-left-ear::before {
+.css-wapuu .line-left-ear::before {
   content: "";
   background-color: #000;
   width: 63px;
@@ -737,7 +737,7 @@
           transform: rotate(-33deg);
 }
 
-.ear-left {
+.css-wapuu .ear-left {
   width: 78px;
 	height: 31px;
   position: absolute;
@@ -751,7 +751,7 @@
           transform: rotate(-1deg);
 }
 
-.ear-left::after {
+.css-wapuu .ear-left::after {
   content: "";
   width: 35px;
   height: 8px;
@@ -766,7 +766,7 @@
           transform: rotate(33deg);
 }
 
-.ear-left::before {
+.css-wapuu .ear-left::before {
   content: "";
   width: 0px;
   height: 0px;
@@ -784,7 +784,7 @@
           transform: rotate(110deg);
 }
 
-.ear-right {
+.css-wapuu .ear-right {
   width: 0px;
   height: 0px;
   position: absolute;
@@ -801,7 +801,7 @@
           transform: rotate(422deg);
 }
 
-.ear-right::before {
+.css-wapuu .ear-right::before {
   content: "";
   background-color: #000;
   width: 29px;
@@ -817,7 +817,7 @@
           transform: rotate(81deg);
 }
 
-.ear-right::after {
+.css-wapuu .ear-right::after {
   content: "";
   background-color: #000;
   width: 15px;
@@ -838,7 +838,7 @@
   Legs
 
 ---------------------------------------*/
-.line-left-leg {
+.css-wapuu .line-left-leg {
   background-color: #000;
   width: 83px;
   height: 80px;
@@ -853,7 +853,7 @@
           transform: rotate(-20deg);
 }
 
-.line-left-leg::after {
+.css-wapuu .line-left-leg::after {
   content: "";
   background-color: #000;
   width: 93px;
@@ -869,7 +869,7 @@
           transform: rotate(-27deg);
 }
 
-.line-left-foot {
+.css-wapuu .line-left-foot {
   background-color: #000;
   width: 89px;
   height: 50px;
@@ -884,7 +884,7 @@
           transform: rotate(67deg);
 }
 
-.line-left-foot::after {
+.css-wapuu .line-left-foot::after {
   content: "";
   background-color: #000;
   width: 84px;
@@ -900,7 +900,7 @@
           transform: rotate(36deg);
 }
 
-.line-left-foot::before {
+.css-wapuu .line-left-foot::before {
   content: "";
   background-color: #000;
   width: 84px;
@@ -916,7 +916,7 @@
           transform: rotate(16deg);
 }
 
-.line-right-foot {
+.css-wapuu .line-right-foot {
   background-color: #000;
   width: 95px;
   height: 42px;
@@ -931,7 +931,7 @@
           transform: rotate(43deg);
 }
 
-.line-right-foot::after {
+.css-wapuu .line-right-foot::after {
   content: "";
   background-color: #000;
   width: 101px;
@@ -947,7 +947,7 @@
           transform: rotate(15deg);
 }
 
-.line-right-foot::before {
+.css-wapuu .line-right-foot::before {
   content: "";
   background-color: #000;
   width: 52px;
@@ -963,7 +963,7 @@
           transform: rotate(59deg);
 }
 
-.left-leg {
+.css-wapuu .left-leg {
   width: 79px;
   height: 62px;
   position: absolute;
@@ -977,7 +977,7 @@
           transform: rotate(-21deg);
 }
 
-.left-leg::after {
+.css-wapuu .left-leg::after {
   content: "";
   width: 64px;
   height: 25px;
@@ -992,7 +992,7 @@
           transform: rotate(-35deg);
 }
 
-.left-leg::before {
+.css-wapuu .left-leg::before {
   content: "";
   width: 94px;
   height: 37px;
@@ -1007,7 +1007,7 @@
           transform: rotate(2deg);
 }
 
-.left-foot {
+.css-wapuu .left-foot {
   width: 66px;
   height: 33px;
   position: absolute;
@@ -1021,7 +1021,7 @@
           transform: rotate(67deg);
 }
 
-.left-foot::after {
+.css-wapuu .left-foot::after {
   content: "";
   width: 64px;
   height: 32px;
@@ -1036,7 +1036,7 @@
           transform: rotate(37deg);
 }
 
-.left-foot::before {
+.css-wapuu .left-foot::before {
   content: "";
   width: 64px;
   height: 32px;
@@ -1051,7 +1051,7 @@
           transform: rotate(20deg);
 }
 
-.right-foot {
+.css-wapuu .right-foot {
   width: 79px;
   height: 24px;
   position: absolute;
@@ -1065,7 +1065,7 @@
           transform: rotate(51deg);
 }
 
-.right-foot::after {
+.css-wapuu .right-foot::after {
   content: "";
   width: 72px;
   height: 32px;
@@ -1080,7 +1080,7 @@
           transform: rotate(1deg);
 }
 
-.thenar {
+.css-wapuu .thenar {
   background-color: #000;
   width: 40px;
   height: 7px;
@@ -1100,7 +1100,7 @@
   Neck
 
 ---------------------------------------*/
-.neck {
+.css-wapuu .neck {
   width: 109px;
   height: 50px;
   position: absolute;
@@ -1114,7 +1114,7 @@
           transform: rotate(47deg);
 }
 
-.neck::after {
+.css-wapuu .neck::after {
   content: "";
   width: 40px;
   height: 15px;
@@ -1129,7 +1129,7 @@
           transform: rotate(-39deg);
 }
 
-.neck::before {
+.css-wapuu .neck::before {
   content: "";
   width: 67px;
   height: 44px;
@@ -1149,7 +1149,7 @@
   Eyes
 
 ---------------------------------------*/
-.eye-rignt {
+.css-wapuu .eye-rignt {
 	background-color: #000;
 	width: 12px;
 	height: 12px;
@@ -1159,7 +1159,7 @@
 	border-radius: 50%;
 }
 
-.eye-left {
+.css-wapuu .eye-left {
 	background-color: #000;
 	width: 12px;
 	height: 12px;
@@ -1174,7 +1174,7 @@
   Nose
 
 ---------------------------------------*/
-.nose {
+.css-wapuu .nose {
 	background-color: #000;
 	width: 20px;
 	height: 10px;
@@ -1189,7 +1189,7 @@
   	        transform: rotate(-20deg);
 }
 
-.nose::after {
+.css-wapuu .nose::after {
 	content: "";
 	background-color: #000;
 	width: 18px;
@@ -1205,7 +1205,7 @@
   Tail
 
 ---------------------------------------*/
-.line-tail1 {
+.css-wapuu .line-tail1 {
   background-color: #000;
   width: 133px;
   height: 38px;
@@ -1220,7 +1220,7 @@
             transform: rotate(-54deg);
 }
 
-.line-tail1::after {
+.css-wapuu .line-tail1::after {
   content: "";
   background-color: #000;
   width: 109px;
@@ -1236,7 +1236,7 @@
             transform: rotate(23deg);
 }
 
-.line-tail1::before {
+.css-wapuu .line-tail1::before {
   content: "";
   background-color: #000;
   width: 103px;
@@ -1252,7 +1252,7 @@
             transform: rotate(58deg);
 }
 
-.line-tail2 {
+.css-wapuu .line-tail2 {
   background-color: #000;
   width: 82px;
   height: 55px;
@@ -1267,7 +1267,7 @@
             transform: rotate(47deg);
 }
 
-.line-tail2::after {
+.css-wapuu .line-tail2::after {
   content: "";
   background-color: #000;
   width: 52px;
@@ -1283,7 +1283,7 @@
             transform: rotate(-20deg);
 }
 
-.line-tail2::before {
+.css-wapuu .line-tail2::before {
   content: "";
   background-color: #000;
   width: 72px;
@@ -1299,7 +1299,7 @@
             transform: rotate(119deg);
 }
 
-.tail1 {
+.css-wapuu .tail1 {
   width: 70px;
   height: 16px;
   position: absolute;
@@ -1313,7 +1313,7 @@
           transform: rotate(-51deg);
 }
 
-.tail1::after {
+.css-wapuu .tail1::after {
   content: "";
   width: 95px;
   height: 18px;
@@ -1328,7 +1328,7 @@
           transform: rotate(24deg);
 }
 
-.tail1::before {
+.css-wapuu .tail1::before {
   content: "";
   width: 80px;
   height: 21px;
@@ -1343,7 +1343,7 @@
           transform: rotate(57deg);
 }
 
-.tail2 {
+.css-wapuu .tail2 {
   width: 53px;
   height: 32px;
   position: absolute;
@@ -1357,7 +1357,7 @@
           transform: rotate(44deg);
 }
 
-.tail2::after {
+.css-wapuu .tail2::after {
   content: "";
   width: 35px;
   height: 14px;
@@ -1372,7 +1372,7 @@
           transform: rotate(-11deg);
 }
 
-.tail3 {
+.css-wapuu .tail3 {
   background-color: #fff;
   width: 42px;
   height: 16px;
@@ -1387,7 +1387,7 @@
           transform: rotate(10deg);
 }
 
-.tail3::before {
+.css-wapuu .tail3::before {
   content: "";
   background-color: #fff;
   width: 30px;
@@ -1403,7 +1403,7 @@
           transform: rotate(-27deg);
 }
 
-.tail4 {
+.css-wapuu .tail4 {
   background-color: #000;
   width: 73px;
   height: 10px;
@@ -1418,7 +1418,7 @@
           transform: rotate(-28deg);
 }
 
-.tail4::after {
+.css-wapuu .tail4::after {
   content: "";
   background-color: #000;
   width: 43px;
@@ -1434,7 +1434,7 @@
           transform: rotate(-19deg);
 }
 
-.tail4::before {
+.css-wapuu .tail4::before {
   content: "";
   background-color: #000;
   width: 53px;
@@ -1457,25 +1457,25 @@
 ---------------------------------------*/
 
 /* body yellow */
-.body,.body::before,.body::after,.face,.face::after,.face::before,.left-hand,.left-hand::before,.right-hand,.left-leg,.left-leg::after,.left-leg::before,.left-foot,.left-foot::after,.left-foot::before,.right-foot,.right-foot::after,.neck,.neck::after,.neck::before {
+.css-wapuu .body,.css-wapuu .body::before,.css-wapuu .body::after,.css-wapuu .face,.css-wapuu .face::after,.css-wapuu .face::before,.css-wapuu .left-hand,.css-wapuu .left-hand::before,.css-wapuu .right-hand,.css-wapuu .left-leg,.css-wapuu .left-leg::after,.css-wapuu .left-leg::before,.css-wapuu .left-foot,.css-wapuu .left-foot::after,.css-wapuu .left-foot::before,.css-wapuu .right-foot,.css-wapuu .right-foot::after,.css-wapuu .neck,.css-wapuu .neck::after,.css-wapuu .neck::before {
 	background-color: #ffd215;
 }
 
 /* ear orange */
-.ear-left,.ear-left::after,.tail1,.tail1::after,.tail1::before,.tail2,.tail2::after {
+.css-wapuu .ear-left,.css-wapuu .ear-left::after,.css-wapuu .tail1,.css-wapuu .tail1::after,.css-wapuu .tail1::before,.css-wapuu .tail2,.css-wapuu .tail2::after {
 	background-color: #fe8809;
 }
 
-.ear-left::before,.ear-right {
+.css-wapuu .ear-left::before,.css-wapuu .ear-right {
 	border-top-color: #fe8809;
 }
 
 /* ball blue */
-.ball,.ball2 {
+.css-wapuu .ball,.css-wapuu .ball2 {
 	background-color: #035683;
 }
 
-.boll-light,.w-circle-inner,.w-2,.w-5,.w-7,.w-9,.w-12 {
+.css-wapuu .boll-light,.css-wapuu .w-circle-inner,.css-wapuu .w-2,.css-wapuu .w-5,.css-wapuu .w-7,.css-wapuu .w-9,.css-wapuu .w-12 {
 	background-color: #06709c;
 }
 

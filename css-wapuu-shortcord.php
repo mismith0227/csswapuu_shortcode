@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: CSS Wapuu Shortcode
- * Plugin URI:
+ * Plugin URI: https://wordpress.org/plugins/css-wapuu-shortcord/
  * Description: It is a plug-in that embed wapuu drawn by CSS in the short code .
- * Version:	 0.1
+ * Version:	 1.0.5
  * Author:	  Misumi Takuma
- * Author URI:
- * License:	 GPLv2
+ * Author URI: https://profiles.wordpress.org/mismith227/
+ * License:	 GPL v2 license or any later version.
  */
 
 function css_wapuu_shortcord_stylesheet() {
